@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6277ABC520A7E26F009A09CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277ABC420A7E26F009A09CE /* AppDelegate.m */; };
+		6277ABCD20A7E270009A09CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6277ABCC20A7E270009A09CE /* Assets.xcassets */; };
+		6277ABD320A7E270009A09CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277ABD220A7E270009A09CE /* main.m */; };
+		6277ABDD20A7E270009A09CE /* ThemeChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277ABDC20A7E270009A09CE /* ThemeChangeTests.m */; };
+		6277ABE820A7E270009A09CE /* ThemeChangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277ABE720A7E270009A09CE /* ThemeChangeUITests.m */; };
+		6277ABF820A7E2C9009A09CE /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277ABF720A7E2C9009A09CE /* LYNavigationController.m */; };
+		6277ABFB20A7E2EA009A09CE /* LYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277ABFA20A7E2EA009A09CE /* LYTabbarController.m */; };
+		6277ABFE20A7E305009A09CE /* LYDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277ABFD20A7E305009A09CE /* LYDefaultViewController.m */; };
+		6277AC0120A7E39D009A09CE /* LYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC0020A7E39D009A09CE /* LYTableViewController.m */; };
+		6277AC1F20A8006A009A09CE /* UIView+ThemeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC0620A8006A009A09CE /* UIView+ThemeChange.m */; };
+		6277AC2020A8006A009A09CE /* UINavigationBar+ThemeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC0820A8006A009A09CE /* UINavigationBar+ThemeChange.m */; };
+		6277AC2120A8006A009A09CE /* UILabel+ThemeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC0A20A8006A009A09CE /* UILabel+ThemeChange.m */; };
+		6277AC2220A8006A009A09CE /* UITabBar+ThemeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC0D20A8006A009A09CE /* UITabBar+ThemeChange.m */; };
+		6277AC2320A8006A009A09CE /* UIColor+LYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC0F20A8006A009A09CE /* UIColor+LYTools.m */; };
+		6277AC2520A8006A009A09CE /* LYMethodSwizzleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC1620A8006A009A09CE /* LYMethodSwizzleUtils.m */; };
+		6277AC2620A8006A009A09CE /* LYThemeDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6277AC1820A8006A009A09CE /* LYThemeDefault.plist */; };
+		6277AC2720A8006A009A09CE /* LYThemeNight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6277AC1920A8006A009A09CE /* LYThemeNight.plist */; };
+		6277AC3120A8033A009A09CE /* LYAppearanceThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC3020A8033A009A09CE /* LYAppearanceThemeManager.m */; };
+		6277AC3720A80390009A09CE /* LYAppearanceThemeManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC2F20A8033A009A09CE /* LYAppearanceThemeManager.h */; };
+		6277AC3A20A8040B009A09CE /* LYThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6277AC3920A8040B009A09CE /* LYThemeManager.m */; };
+		628FAD2E20A9251600492F40 /* UITableView+ThemeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 628FAD2D20A9251600492F40 /* UITableView+ThemeChange.m */; };
+		628FAD3120A9273500492F40 /* UITableViewCell+ThemeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 628FAD3020A9273500492F40 /* UITableViewCell+ThemeChange.m */; };
+		628FAD3320A92BB000492F40 /* LYThemeNightTag.plist in Resources */ = {isa = PBXBuildFile; fileRef = 628FAD3220A92BB000492F40 /* LYThemeNightTag.plist */; };
+		628FAD3520A92D0100492F40 /* LYThemeDefaultTag.plist in Resources */ = {isa = PBXBuildFile; fileRef = 628FAD3420A92D0100492F40 /* LYThemeDefaultTag.plist */; };
+		89503A3E9F40FB93E32BCBDA /* libPods-ThemeChangeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2688387AC55DCC2AE05706F3 /* libPods-ThemeChangeUITests.a */; };
+		A04C9DF6571568BCC899EB29 /* libPods-ThemeChangeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC64F52B73C5EBC35E01DC1 /* libPods-ThemeChangeTests.a */; };
+		D42A1959AAE06A1F332D52EE /* libPods-ThemeChange.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8CF2CACF2CF9336C926F62 /* libPods-ThemeChange.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6277ABD920A7E270009A09CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6277ABB820A7E26F009A09CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6277ABBF20A7E26F009A09CE;
+			remoteInfo = ThemeChange;
+		};
+		6277ABE420A7E270009A09CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6277ABB820A7E26F009A09CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6277ABBF20A7E26F009A09CE;
+			remoteInfo = ThemeChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1952E41F0D57E32EC8C86A50 /* Pods-ThemeChange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChange/Pods-ThemeChange.debug.xcconfig"; sourceTree = "<group>"; };
+		2688387AC55DCC2AE05706F3 /* libPods-ThemeChangeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThemeChangeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3370567842B3E7080295322A /* Pods-ThemeChange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChange.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChange/Pods-ThemeChange.release.xcconfig"; sourceTree = "<group>"; };
+		5B8A396F54A9DB7A5F4D575F /* Pods-ThemeChangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChangeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChangeUITests/Pods-ThemeChangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6277ABC020A7E26F009A09CE /* ThemeChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6277ABC320A7E26F009A09CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6277ABC420A7E26F009A09CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6277ABCC20A7E270009A09CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6277ABD120A7E270009A09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6277ABD220A7E270009A09CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6277ABD820A7E270009A09CE /* ThemeChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6277ABDC20A7E270009A09CE /* ThemeChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeChangeTests.m; sourceTree = "<group>"; };
+		6277ABDE20A7E270009A09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6277ABE320A7E270009A09CE /* ThemeChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6277ABE720A7E270009A09CE /* ThemeChangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeChangeUITests.m; sourceTree = "<group>"; };
+		6277ABE920A7E270009A09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6277ABF620A7E2C9009A09CE /* LYNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNavigationController.h; sourceTree = "<group>"; };
+		6277ABF720A7E2C9009A09CE /* LYNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNavigationController.m; sourceTree = "<group>"; };
+		6277ABF920A7E2EA009A09CE /* LYTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYTabbarController.h; sourceTree = "<group>"; };
+		6277ABFA20A7E2EA009A09CE /* LYTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTabbarController.m; sourceTree = "<group>"; };
+		6277ABFC20A7E305009A09CE /* LYDefaultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDefaultViewController.h; sourceTree = "<group>"; };
+		6277ABFD20A7E305009A09CE /* LYDefaultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDefaultViewController.m; sourceTree = "<group>"; };
+		6277ABFF20A7E39D009A09CE /* LYTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYTableViewController.h; sourceTree = "<group>"; };
+		6277AC0020A7E39D009A09CE /* LYTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTableViewController.m; sourceTree = "<group>"; };
+		6277AC0520A8006A009A09CE /* UILabel+ThemeChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ThemeChange.h"; sourceTree = "<group>"; };
+		6277AC0620A8006A009A09CE /* UIView+ThemeChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ThemeChange.m"; sourceTree = "<group>"; };
+		6277AC0720A8006A009A09CE /* UITabBar+ThemeChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+ThemeChange.h"; sourceTree = "<group>"; };
+		6277AC0820A8006A009A09CE /* UINavigationBar+ThemeChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+ThemeChange.m"; sourceTree = "<group>"; };
+		6277AC0920A8006A009A09CE /* UIView+ThemeChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ThemeChange.h"; sourceTree = "<group>"; };
+		6277AC0A20A8006A009A09CE /* UILabel+ThemeChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ThemeChange.m"; sourceTree = "<group>"; };
+		6277AC0C20A8006A009A09CE /* UINavigationBar+ThemeChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+ThemeChange.h"; sourceTree = "<group>"; };
+		6277AC0D20A8006A009A09CE /* UITabBar+ThemeChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+ThemeChange.m"; sourceTree = "<group>"; };
+		6277AC0F20A8006A009A09CE /* UIColor+LYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LYTools.m"; sourceTree = "<group>"; };
+		6277AC1020A8006A009A09CE /* UIColor+LYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LYTools.h"; sourceTree = "<group>"; };
+		6277AC1520A8006A009A09CE /* LYMethodSwizzleUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMethodSwizzleUtils.h; sourceTree = "<group>"; };
+		6277AC1620A8006A009A09CE /* LYMethodSwizzleUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMethodSwizzleUtils.m; sourceTree = "<group>"; };
+		6277AC1820A8006A009A09CE /* LYThemeDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LYThemeDefault.plist; sourceTree = "<group>"; };
+		6277AC1920A8006A009A09CE /* LYThemeNight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LYThemeNight.plist; sourceTree = "<group>"; };
+		6277AC2F20A8033A009A09CE /* LYAppearanceThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAppearanceThemeManager.h; sourceTree = "<group>"; };
+		6277AC3020A8033A009A09CE /* LYAppearanceThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAppearanceThemeManager.m; sourceTree = "<group>"; };
+		6277AC3820A8040B009A09CE /* LYThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYThemeManager.h; sourceTree = "<group>"; };
+		6277AC3920A8040B009A09CE /* LYThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYThemeManager.m; sourceTree = "<group>"; };
+		628FAD2B20A91ECB00492F40 /* ThemeConfig.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeConfig.pch; sourceTree = "<group>"; };
+		628FAD2C20A9251600492F40 /* UITableView+ThemeChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+ThemeChange.h"; sourceTree = "<group>"; };
+		628FAD2D20A9251600492F40 /* UITableView+ThemeChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ThemeChange.m"; sourceTree = "<group>"; };
+		628FAD2F20A9273500492F40 /* UITableViewCell+ThemeChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ThemeChange.h"; sourceTree = "<group>"; };
+		628FAD3020A9273500492F40 /* UITableViewCell+ThemeChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ThemeChange.m"; sourceTree = "<group>"; };
+		628FAD3220A92BB000492F40 /* LYThemeNightTag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LYThemeNightTag.plist; sourceTree = "<group>"; };
+		628FAD3420A92D0100492F40 /* LYThemeDefaultTag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LYThemeDefaultTag.plist; sourceTree = "<group>"; };
+		7DB12EB3C1E6123C8B1ADB48 /* Pods-ThemeChangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChangeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChangeUITests/Pods-ThemeChangeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B8CF2CACF2CF9336C926F62 /* libPods-ThemeChange.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThemeChange.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C26546B087DE9717FD2366 /* Pods-ThemeChangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChangeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChangeTests/Pods-ThemeChangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC5658C7964C924DD2FE2E1A /* Pods-ThemeChangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChangeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChangeTests/Pods-ThemeChangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEC64F52B73C5EBC35E01DC1 /* libPods-ThemeChangeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThemeChangeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6277ABBD20A7E26F009A09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42A1959AAE06A1F332D52EE /* libPods-ThemeChange.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6277ABD520A7E270009A09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04C9DF6571568BCC899EB29 /* libPods-ThemeChangeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6277ABE020A7E270009A09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89503A3E9F40FB93E32BCBDA /* libPods-ThemeChangeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594EFB1941F725F9E1D5A8C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B8CF2CACF2CF9336C926F62 /* libPods-ThemeChange.a */,
+				FEC64F52B73C5EBC35E01DC1 /* libPods-ThemeChangeTests.a */,
+				2688387AC55DCC2AE05706F3 /* libPods-ThemeChangeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6277ABB720A7E26F009A09CE = {
+			isa = PBXGroup;
+			children = (
+				6277ABC220A7E26F009A09CE /* ThemeChange */,
+				6277ABDB20A7E270009A09CE /* ThemeChangeTests */,
+				6277ABE620A7E270009A09CE /* ThemeChangeUITests */,
+				6277ABC120A7E26F009A09CE /* Products */,
+				E034D8D0A4FA36818F0795AE /* Pods */,
+				594EFB1941F725F9E1D5A8C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6277ABC120A7E26F009A09CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6277ABC020A7E26F009A09CE /* ThemeChange.app */,
+				6277ABD820A7E270009A09CE /* ThemeChangeTests.xctest */,
+				6277ABE320A7E270009A09CE /* ThemeChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6277ABC220A7E26F009A09CE /* ThemeChange */ = {
+			isa = PBXGroup;
+			children = (
+				6277AC0220A8006A009A09CE /* Theme */,
+				6277AC1A20A8006A009A09CE /* UIAppearanceTheme */,
+				6277ABF520A7E29D009A09CE /* Controller */,
+				6277ABC320A7E26F009A09CE /* AppDelegate.h */,
+				6277ABC420A7E26F009A09CE /* AppDelegate.m */,
+				6277ABCC20A7E270009A09CE /* Assets.xcassets */,
+				6277ABD120A7E270009A09CE /* Info.plist */,
+				6277ABD220A7E270009A09CE /* main.m */,
+			);
+			path = ThemeChange;
+			sourceTree = "<group>";
+		};
+		6277ABDB20A7E270009A09CE /* ThemeChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6277ABDC20A7E270009A09CE /* ThemeChangeTests.m */,
+				6277ABDE20A7E270009A09CE /* Info.plist */,
+			);
+			path = ThemeChangeTests;
+			sourceTree = "<group>";
+		};
+		6277ABE620A7E270009A09CE /* ThemeChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6277ABE720A7E270009A09CE /* ThemeChangeUITests.m */,
+				6277ABE920A7E270009A09CE /* Info.plist */,
+			);
+			path = ThemeChangeUITests;
+			sourceTree = "<group>";
+		};
+		6277ABF520A7E29D009A09CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6277ABF620A7E2C9009A09CE /* LYNavigationController.h */,
+				6277ABF720A7E2C9009A09CE /* LYNavigationController.m */,
+				6277ABF920A7E2EA009A09CE /* LYTabbarController.h */,
+				6277ABFA20A7E2EA009A09CE /* LYTabbarController.m */,
+				6277ABFC20A7E305009A09CE /* LYDefaultViewController.h */,
+				6277ABFD20A7E305009A09CE /* LYDefaultViewController.m */,
+				6277ABFF20A7E39D009A09CE /* LYTableViewController.h */,
+				6277AC0020A7E39D009A09CE /* LYTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6277AC0220A8006A009A09CE /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				6277AC0320A8006A009A09CE /* Catagory */,
+				6277AC0E20A8006A009A09CE /* UIColorExtension */,
+				6277AC1420A8006A009A09CE /* MethodSwizzleUtils */,
+				6277AC1720A8006A009A09CE /* Resource */,
+				6277AC3820A8040B009A09CE /* LYThemeManager.h */,
+				6277AC3920A8040B009A09CE /* LYThemeManager.m */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		6277AC0320A8006A009A09CE /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				6277AC0520A8006A009A09CE /* UILabel+ThemeChange.h */,
+				6277AC0A20A8006A009A09CE /* UILabel+ThemeChange.m */,
+				6277AC0920A8006A009A09CE /* UIView+ThemeChange.h */,
+				6277AC0620A8006A009A09CE /* UIView+ThemeChange.m */,
+				6277AC0720A8006A009A09CE /* UITabBar+ThemeChange.h */,
+				6277AC0D20A8006A009A09CE /* UITabBar+ThemeChange.m */,
+				6277AC0C20A8006A009A09CE /* UINavigationBar+ThemeChange.h */,
+				6277AC0820A8006A009A09CE /* UINavigationBar+ThemeChange.m */,
+				628FAD2C20A9251600492F40 /* UITableView+ThemeChange.h */,
+				628FAD2D20A9251600492F40 /* UITableView+ThemeChange.m */,
+				628FAD2F20A9273500492F40 /* UITableViewCell+ThemeChange.h */,
+				628FAD3020A9273500492F40 /* UITableViewCell+ThemeChange.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		6277AC0E20A8006A009A09CE /* UIColorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6277AC1020A8006A009A09CE /* UIColor+LYTools.h */,
+				6277AC0F20A8006A009A09CE /* UIColor+LYTools.m */,
+			);
+			path = UIColorExtension;
+			sourceTree = "<group>";
+		};
+		6277AC1420A8006A009A09CE /* MethodSwizzleUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6277AC1520A8006A009A09CE /* LYMethodSwizzleUtils.h */,
+				6277AC1620A8006A009A09CE /* LYMethodSwizzleUtils.m */,
+			);
+			path = MethodSwizzleUtils;
+			sourceTree = "<group>";
+		};
+		6277AC1720A8006A009A09CE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6277AC1820A8006A009A09CE /* LYThemeDefault.plist */,
+				6277AC1920A8006A009A09CE /* LYThemeNight.plist */,
+				628FAD2B20A91ECB00492F40 /* ThemeConfig.pch */,
+				628FAD3220A92BB000492F40 /* LYThemeNightTag.plist */,
+				628FAD3420A92D0100492F40 /* LYThemeDefaultTag.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6277AC1A20A8006A009A09CE /* UIAppearanceTheme */ = {
+			isa = PBXGroup;
+			children = (
+				6277AC2F20A8033A009A09CE /* LYAppearanceThemeManager.h */,
+				6277AC3020A8033A009A09CE /* LYAppearanceThemeManager.m */,
+			);
+			path = UIAppearanceTheme;
+			sourceTree = "<group>";
+		};
+		E034D8D0A4FA36818F0795AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1952E41F0D57E32EC8C86A50 /* Pods-ThemeChange.debug.xcconfig */,
+				3370567842B3E7080295322A /* Pods-ThemeChange.release.xcconfig */,
+				D0C26546B087DE9717FD2366 /* Pods-ThemeChangeTests.debug.xcconfig */,
+				FC5658C7964C924DD2FE2E1A /* Pods-ThemeChangeTests.release.xcconfig */,
+				5B8A396F54A9DB7A5F4D575F /* Pods-ThemeChangeUITests.debug.xcconfig */,
+				7DB12EB3C1E6123C8B1ADB48 /* Pods-ThemeChangeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6277ABBF20A7E26F009A09CE /* ThemeChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6277ABEC20A7E270009A09CE /* Build configuration list for PBXNativeTarget "ThemeChange" */;
+			buildPhases = (
+				F4FA781FEBB67036FFE3F18D /* [CP] Check Pods Manifest.lock */,
+				6277ABBC20A7E26F009A09CE /* Sources */,
+				6277ABBD20A7E26F009A09CE /* Frameworks */,
+				6277ABBE20A7E26F009A09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeChange;
+			productName = ThemeChange;
+			productReference = 6277ABC020A7E26F009A09CE /* ThemeChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6277ABD720A7E270009A09CE /* ThemeChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6277ABEF20A7E270009A09CE /* Build configuration list for PBXNativeTarget "ThemeChangeTests" */;
+			buildPhases = (
+				E2B522E3B232E9712C63A637 /* [CP] Check Pods Manifest.lock */,
+				6277ABD420A7E270009A09CE /* Sources */,
+				6277ABD520A7E270009A09CE /* Frameworks */,
+				6277ABD620A7E270009A09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6277ABDA20A7E270009A09CE /* PBXTargetDependency */,
+			);
+			name = ThemeChangeTests;
+			productName = ThemeChangeTests;
+			productReference = 6277ABD820A7E270009A09CE /* ThemeChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6277ABE220A7E270009A09CE /* ThemeChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6277ABF220A7E270009A09CE /* Build configuration list for PBXNativeTarget "ThemeChangeUITests" */;
+			buildPhases = (
+				7326B1656642F59954D29B17 /* [CP] Check Pods Manifest.lock */,
+				6277ABDF20A7E270009A09CE /* Sources */,
+				6277ABE020A7E270009A09CE /* Frameworks */,
+				6277ABE120A7E270009A09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6277ABE520A7E270009A09CE /* PBXTargetDependency */,
+			);
+			name = ThemeChangeUITests;
+			productName = ThemeChangeUITests;
+			productReference = 6277ABE320A7E270009A09CE /* ThemeChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6277ABB820A7E26F009A09CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = shenglanya;
+				TargetAttributes = {
+					6277ABBF20A7E26F009A09CE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6277ABD720A7E270009A09CE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6277ABBF20A7E26F009A09CE;
+					};
+					6277ABE220A7E270009A09CE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6277ABBF20A7E26F009A09CE;
+					};
+				};
+			};
+			buildConfigurationList = 6277ABBB20A7E26F009A09CE /* Build configuration list for PBXProject "ThemeChange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6277ABB720A7E26F009A09CE;
+			productRefGroup = 6277ABC120A7E26F009A09CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6277ABBF20A7E26F009A09CE /* ThemeChange */,
+				6277ABD720A7E270009A09CE /* ThemeChangeTests */,
+				6277ABE220A7E270009A09CE /* ThemeChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6277ABBE20A7E26F009A09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6277AC2720A8006A009A09CE /* LYThemeNight.plist in Resources */,
+				6277ABCD20A7E270009A09CE /* Assets.xcassets in Resources */,
+				628FAD3320A92BB000492F40 /* LYThemeNightTag.plist in Resources */,
+				6277AC2620A8006A009A09CE /* LYThemeDefault.plist in Resources */,
+				628FAD3520A92D0100492F40 /* LYThemeDefaultTag.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6277ABD620A7E270009A09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6277ABE120A7E270009A09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7326B1656642F59954D29B17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThemeChangeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B522E3B232E9712C63A637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThemeChangeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FA781FEBB67036FFE3F18D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThemeChange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6277ABBC20A7E26F009A09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6277AC3720A80390009A09CE /* LYAppearanceThemeManager.h in Sources */,
+				6277ABF820A7E2C9009A09CE /* LYNavigationController.m in Sources */,
+				6277ABD320A7E270009A09CE /* main.m in Sources */,
+				628FAD3120A9273500492F40 /* UITableViewCell+ThemeChange.m in Sources */,
+				6277AC3120A8033A009A09CE /* LYAppearanceThemeManager.m in Sources */,
+				6277AC0120A7E39D009A09CE /* LYTableViewController.m in Sources */,
+				6277ABFB20A7E2EA009A09CE /* LYTabbarController.m in Sources */,
+				6277AC2120A8006A009A09CE /* UILabel+ThemeChange.m in Sources */,
+				6277AC1F20A8006A009A09CE /* UIView+ThemeChange.m in Sources */,
+				6277AC2320A8006A009A09CE /* UIColor+LYTools.m in Sources */,
+				628FAD2E20A9251600492F40 /* UITableView+ThemeChange.m in Sources */,
+				6277AC2520A8006A009A09CE /* LYMethodSwizzleUtils.m in Sources */,
+				6277AC3A20A8040B009A09CE /* LYThemeManager.m in Sources */,
+				6277AC2220A8006A009A09CE /* UITabBar+ThemeChange.m in Sources */,
+				6277ABC520A7E26F009A09CE /* AppDelegate.m in Sources */,
+				6277AC2020A8006A009A09CE /* UINavigationBar+ThemeChange.m in Sources */,
+				6277ABFE20A7E305009A09CE /* LYDefaultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6277ABD420A7E270009A09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6277ABDD20A7E270009A09CE /* ThemeChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6277ABDF20A7E270009A09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6277ABE820A7E270009A09CE /* ThemeChangeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6277ABDA20A7E270009A09CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6277ABBF20A7E26F009A09CE /* ThemeChange */;
+			targetProxy = 6277ABD920A7E270009A09CE /* PBXContainerItemProxy */;
+		};
+		6277ABE520A7E270009A09CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6277ABBF20A7E26F009A09CE /* ThemeChange */;
+			targetProxy = 6277ABE420A7E270009A09CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6277ABEA20A7E270009A09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6277ABEB20A7E270009A09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6277ABED20A7E270009A09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1952E41F0D57E32EC8C86A50 /* Pods-ThemeChange.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYPD3995XK;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/shenglanya/Documents/programing/ThemeChange/ThemeChange/Theme/Resource/ThemeConfig.pch;
+				INFOPLIST_FILE = ThemeChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6277ABEE20A7E270009A09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3370567842B3E7080295322A /* Pods-ThemeChange.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYPD3995XK;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/shenglanya/Documents/programing/ThemeChange/ThemeChange/Theme/Resource/ThemeConfig.pch;
+				INFOPLIST_FILE = ThemeChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6277ABF020A7E270009A09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C26546B087DE9717FD2366 /* Pods-ThemeChangeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemeChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeChange.app/ThemeChange";
+			};
+			name = Debug;
+		};
+		6277ABF120A7E270009A09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5658C7964C924DD2FE2E1A /* Pods-ThemeChangeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemeChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeChange.app/ThemeChange";
+			};
+			name = Release;
+		};
+		6277ABF320A7E270009A09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8A396F54A9DB7A5F4D575F /* Pods-ThemeChangeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemeChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThemeChange;
+			};
+			name = Debug;
+		};
+		6277ABF420A7E270009A09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB12EB3C1E6123C8B1ADB48 /* Pods-ThemeChangeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThemeChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThemeChange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6277ABBB20A7E26F009A09CE /* Build configuration list for PBXProject "ThemeChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6277ABEA20A7E270009A09CE /* Debug */,
+				6277ABEB20A7E270009A09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6277ABEC20A7E270009A09CE /* Build configuration list for PBXNativeTarget "ThemeChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6277ABED20A7E270009A09CE /* Debug */,
+				6277ABEE20A7E270009A09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6277ABEF20A7E270009A09CE /* Build configuration list for PBXNativeTarget "ThemeChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6277ABF020A7E270009A09CE /* Debug */,
+				6277ABF120A7E270009A09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6277ABF220A7E270009A09CE /* Build configuration list for PBXNativeTarget "ThemeChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6277ABF320A7E270009A09CE /* Debug */,
+				6277ABF420A7E270009A09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6277ABB820A7E26F009A09CE /* Project object */;
+}

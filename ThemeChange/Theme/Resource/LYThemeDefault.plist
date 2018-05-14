@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>setTabbarTextColor:</key>
+	<string>#FF1493</string>
+	<key>setTabbarBackgroundTintColor:</key>
+	<string>#FF1493</string>
+	<key>setUnselectedItemTintColor:</key>
+	<string>#FFFAFA</string>
+	<key>setLabelBackgroundColor:</key>
+	<string>#FFFAF0</string>
+	<key>setTabBarTintColor:</key>
+	<string>#ADD8E6</string>
+	<key>setNavTintColor:</key>
+	<string>#FFFFF0</string>
+	<key>setBarTintColor:</key>
+	<string>#FA8072</string>
+	<key>setShadowColor:</key>
+	<string>#00BFFF</string>
+	<key>setHighlightedTextColor:</key>
+	<string>#FF1493</string>
+	<key>setTextColor:</key>
+	<string>#FF1493</string>
+	<key>setTintColor:</key>
+	<string>#FA8072</string>
+	<key>setBackgroundColor:</key>
+	<string>#FFB6C1</string>
+</dict>
+</plist>

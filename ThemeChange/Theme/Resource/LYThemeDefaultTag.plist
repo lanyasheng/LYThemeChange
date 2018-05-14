@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>11:viewBackgroundColor</key>
+        <string>#FFF0F5</string>
+        <key>12:textColor</key>
+        <string>#FF0000</string>
+        <key>13:tableViewCellBackgroundColor</key>
+        <string>#FFC0CB</string>
+    </dict>
+</plist>
