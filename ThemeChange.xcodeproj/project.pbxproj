@@ -33,7 +33,6 @@
 		628FAD3520A92D0100492F40 /* LYThemeDefaultTag.plist in Resources */ = {isa = PBXBuildFile; fileRef = 628FAD3420A92D0100492F40 /* LYThemeDefaultTag.plist */; };
 		89503A3E9F40FB93E32BCBDA /* libPods-ThemeChangeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2688387AC55DCC2AE05706F3 /* libPods-ThemeChangeUITests.a */; };
 		A04C9DF6571568BCC899EB29 /* libPods-ThemeChangeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC64F52B73C5EBC35E01DC1 /* libPods-ThemeChangeTests.a */; };
-		D42A1959AAE06A1F332D52EE /* libPods-ThemeChange.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8CF2CACF2CF9336C926F62 /* libPods-ThemeChange.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1952E41F0D57E32EC8C86A50 /* Pods-ThemeChange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChange/Pods-ThemeChange.debug.xcconfig"; sourceTree = "<group>"; };
 		2688387AC55DCC2AE05706F3 /* libPods-ThemeChangeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThemeChangeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3370567842B3E7080295322A /* Pods-ThemeChange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChange.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChange/Pods-ThemeChange.release.xcconfig"; sourceTree = "<group>"; };
-		5B8A396F54A9DB7A5F4D575F /* Pods-ThemeChangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChangeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChangeUITests/Pods-ThemeChangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6277ABC020A7E26F009A09CE /* ThemeChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6277ABC320A7E26F009A09CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6277ABC420A7E26F009A09CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,10 +99,6 @@
 		628FAD3020A9273500492F40 /* UITableViewCell+ThemeChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ThemeChange.m"; sourceTree = "<group>"; };
 		628FAD3220A92BB000492F40 /* LYThemeNightTag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LYThemeNightTag.plist; sourceTree = "<group>"; };
 		628FAD3420A92D0100492F40 /* LYThemeDefaultTag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LYThemeDefaultTag.plist; sourceTree = "<group>"; };
-		7DB12EB3C1E6123C8B1ADB48 /* Pods-ThemeChangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChangeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChangeUITests/Pods-ThemeChangeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9B8CF2CACF2CF9336C926F62 /* libPods-ThemeChange.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThemeChange.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C26546B087DE9717FD2366 /* Pods-ThemeChangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChangeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChangeTests/Pods-ThemeChangeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FC5658C7964C924DD2FE2E1A /* Pods-ThemeChangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemeChangeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThemeChangeTests/Pods-ThemeChangeTests.release.xcconfig"; sourceTree = "<group>"; };
 		FEC64F52B73C5EBC35E01DC1 /* libPods-ThemeChangeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThemeChangeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42A1959AAE06A1F332D52EE /* libPods-ThemeChange.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +132,6 @@
 		594EFB1941F725F9E1D5A8C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B8CF2CACF2CF9336C926F62 /* libPods-ThemeChange.a */,
 				FEC64F52B73C5EBC35E01DC1 /* libPods-ThemeChangeTests.a */,
 				2688387AC55DCC2AE05706F3 /* libPods-ThemeChangeUITests.a */,
 			);
@@ -155,7 +145,6 @@
 				6277ABDB20A7E270009A09CE /* ThemeChangeTests */,
 				6277ABE620A7E270009A09CE /* ThemeChangeUITests */,
 				6277ABC120A7E26F009A09CE /* Products */,
-				E034D8D0A4FA36818F0795AE /* Pods */,
 				594EFB1941F725F9E1D5A8C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -289,19 +278,6 @@
 			path = UIAppearanceTheme;
 			sourceTree = "<group>";
 		};
-		E034D8D0A4FA36818F0795AE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1952E41F0D57E32EC8C86A50 /* Pods-ThemeChange.debug.xcconfig */,
-				3370567842B3E7080295322A /* Pods-ThemeChange.release.xcconfig */,
-				D0C26546B087DE9717FD2366 /* Pods-ThemeChangeTests.debug.xcconfig */,
-				FC5658C7964C924DD2FE2E1A /* Pods-ThemeChangeTests.release.xcconfig */,
-				5B8A396F54A9DB7A5F4D575F /* Pods-ThemeChangeUITests.debug.xcconfig */,
-				7DB12EB3C1E6123C8B1ADB48 /* Pods-ThemeChangeUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,7 +285,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6277ABEC20A7E270009A09CE /* Build configuration list for PBXNativeTarget "ThemeChange" */;
 			buildPhases = (
-				F4FA781FEBB67036FFE3F18D /* [CP] Check Pods Manifest.lock */,
 				6277ABBC20A7E26F009A09CE /* Sources */,
 				6277ABBD20A7E26F009A09CE /* Frameworks */,
 				6277ABBE20A7E26F009A09CE /* Resources */,
@@ -463,24 +438,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ThemeChangeTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F4FA781FEBB67036FFE3F18D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ThemeChange-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -658,7 +615,6 @@
 		};
 		6277ABED20A7E270009A09CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1952E41F0D57E32EC8C86A50 /* Pods-ThemeChange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -667,7 +623,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/shenglanya/Documents/programing/ThemeChange/ThemeChange/Theme/Resource/ThemeConfig.pch;
 				INFOPLIST_FILE = ThemeChange/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -676,7 +635,6 @@
 		};
 		6277ABEE20A7E270009A09CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3370567842B3E7080295322A /* Pods-ThemeChange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -685,7 +643,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/shenglanya/Documents/programing/ThemeChange/ThemeChange/Theme/Resource/ThemeConfig.pch;
 				INFOPLIST_FILE = ThemeChange/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -694,12 +655,15 @@
 		};
 		6277ABF020A7E270009A09CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0C26546B087DE9717FD2366 /* Pods-ThemeChangeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThemeChangeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChangeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -709,12 +673,15 @@
 		};
 		6277ABF120A7E270009A09CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC5658C7964C924DD2FE2E1A /* Pods-ThemeChangeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThemeChangeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChangeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -724,11 +691,14 @@
 		};
 		6277ABF320A7E270009A09CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B8A396F54A9DB7A5F4D575F /* Pods-ThemeChangeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThemeChangeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChangeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -738,11 +708,14 @@
 		};
 		6277ABF420A7E270009A09CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DB12EB3C1E6123C8B1ADB48 /* Pods-ThemeChangeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThemeChangeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = study.bySLY.ThemeChangeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

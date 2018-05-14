@@ -9,7 +9,6 @@
 #import "LYTableViewController.h"
 #import "LYAppearanceThemeManager.h"
 #import "LYThemeManager.h"
-#import <Masonry.h>
 
 static NSString * const kTableViewReusableCellId = @"kTableViewReusableCellId";
 static NSString * const kThemeChangeReusableCellId = @"kThemeChangeReusableCellId";
@@ -37,12 +36,8 @@ static NSString * const kThemeChangeReusableCellId = @"kThemeChangeReusableCellI
 }
 
 - (void)setUpData {
-    _switchView = [[UISwitch alloc] init];
+    _switchView = [[UISwitch alloc] initWithFrame:CGRectMake(30, 10, 100, 20)];
     [self.contentView addSubview:_switchView];
-    [_switchView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.contentView).with.offset(10);
-        make.right.equalTo(self.contentView).with.offset(-10);
-    }];
     [_switchView addTarget:self action:@selector(didChangeValueForSwitchView) forControlEvents:UIControlEventValueChanged];
 }
 
