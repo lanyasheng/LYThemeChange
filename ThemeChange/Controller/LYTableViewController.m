@@ -24,12 +24,17 @@ static NSString * const kThemeChangeReusableCellId = @"kThemeChangeReusableCellI
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         if ([reuseIdentifier isEqualToString:kThemeChangeReusableCellId]) {
             [self setUpData];
-            
-                        if ([LYAppearanceThemeManager shareManager].themeType == LYAppearanceThemeTypeNight) {
-                            _switchView.on = YES;
-                        } else {
-                            _switchView.on = NO;
-                        }
+            if ([LYThemeManager shareManager].themeType == LYAppearanceThemeTypeNight) {
+                _switchView.on = YES;
+            } else {
+                _switchView.on = NO;
+            }
+//
+//                        if ([LYAppearanceThemeManager shareManager].themeType == LYAppearanceThemeTypeNight) {
+//                            _switchView.on = YES;
+//                        } else {
+//                            _switchView.on = NO;
+//                        }
         }
     }
     return self;
