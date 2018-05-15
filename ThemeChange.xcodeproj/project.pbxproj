@@ -621,7 +621,7 @@
 				DEVELOPMENT_TEAM = EYPD3995XK;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/shenglanya/Documents/programing/ThemeChange/ThemeChange/Theme/Resource/ThemeConfig.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ThemeChange/Theme/Resource/ThemeConfig.pch";
 				INFOPLIST_FILE = ThemeChange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -641,7 +641,7 @@
 				DEVELOPMENT_TEAM = EYPD3995XK;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/shenglanya/Documents/programing/ThemeChange/ThemeChange/Theme/Resource/ThemeConfig.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ThemeChange/Theme/Resource/ThemeConfig.pch";
 				INFOPLIST_FILE = ThemeChange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
